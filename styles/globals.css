@@ -11,3 +11,13 @@
 body {
   background-color: black;
 }
+
+.text-mask {
+  -webkit-mask-image: url('/mask.svg');
+  mask-image: url('/mask.svg');
+  mask-size: 40px;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background: white;
+  color: black;
+}
